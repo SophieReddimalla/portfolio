@@ -5,36 +5,33 @@
     <!-- Defines the veiwport width -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
+
     <!--Links to css style sheets -->
     <link href="css\bootstrap.min.css" rel="stylesheet">
     <link href="css\portfolio.css" rel="stylesheet">
+
     <!-- links to the fonts to be used-->
     <link href='https://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Gruppo' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Allerta' rel='stylesheet'>
-    <title>udacity framework</title>
+    <title>Udacity Portfolio</title>
 </head>
 
 <body>
-
-    <article>
+    <main>
         <!-- Container class is defined -->
         <div class="container">
-
             <header>
                 <!-- Heading Section: Logo and header elements -->
                 <div class="row" id="heading">
                     <div class="col-md-3">
                         <img src="images\logo.jpg" alt=logo>
                     </div>
-                    <hgroup>
-                        <div class="col-md-9 text-right text-uppercase">
-                            <h1>SOPHIE REDDIMALLA</h1>
-                            <h4>Front end ninja</h4>
-                            <p>Give yourself some peace!!</p>
-                        </div>
+                    <hgroup class="col-md-9 text-right text-uppercase">
+                        <h1>SOPHIE REDDIMALLA</h1>
+                        <h4>Front end ninja</h4>
+                        <p>Give yourself some peace!!</p>
                     </hgroup>
-
                 </div>
                 <!-- Horizontal line  -->
                 <div class="row" id="line">
@@ -44,58 +41,47 @@
                 </div>
             </header>
 
-            <article>
-                <section id="main">
-                    <!-- Main image -->
-                    <div class="row" id="main">
-                        <div class="col-md-12">
-                            <img src="images\Taj-Mahal.jpg" alt="Taj Mahal">
-                        </div>
-                    </div>
+
+
+            <section id="main">
+                <!-- Main image -->
+                <img src="images\img_header_01.jpeg" alt="Taj Mahal">
+            </section>
+
+
+            <article class="row">
+                <h2>Featured Work:</h2>
+                <!-- Three photo Sections are defined -->
+                <!-- Featured Work Section 1 -->
+                <section  class="col-md-4 text-center">
+                    <img src="images\img_fw_01.jpg" alt="Kerala">
+                    <h3>COASTAL AREAS</h3>
+                    <a href="mailto:sophie.reddimalla@gmail.com">
+                        <h6>sophie.reddimalla@gmail.com</h6>
+                    </a>
                 </section>
 
 
-                <section id="content head">
-                    <!-- Features Heading defined -->
-                    <div class="row" id="features">
-                        <div class="col-md-12">
-                            <h2>Featured Work:</h2>
-                        </div>
-                    </div>
+                <!-- Featured Work Section 2 -->
+                <section class="col-md-4 text-center">
+                    <img src="images\img_fw_02.jpg" alt="Kinkaku-ji-Kyoto">
+                    <h3>RESORTS</h3>
+                    <a href="mailto:sophie.reddimalla@gmail.com">
+                        <h6>sophie.reddimalla@gmail.com</h6>
+                    </a>
                 </section>
 
-
-                <section id="content">
-                    <!-- Three photo divisions are defined -->
-                    <div class="row" id="divisions">
-                        <div class="col-md-4 text-center ">
-                            <img src="images\kerala.jpg" alt="Kerala">
-                            <h3>COASTAL AREAS</h3>
-                            <a href="mailto:sophie.reddimalla@gmail.com">
-                                <h6>sophie.reddimalla@gmail.com</h6>
-                            </a>
-                        </div>
-                        <div class="col-md-4  text-center ">
-                            <img src="images\akaka-falls.jpg" alt="Akka-Falls">
-                            <h3>HILL STATIONS</h3>
-                            <a href="mailto:sophie.reddimalla@gmail.com">
-                                <h6>sophie.reddimalla@gmail.com</h6>
-                            </a>
-                        </div>
-                        <div class="col-md-4  text-center ">
-                            <img src="images\kinkaku-ji-kyoto.jpg" alt="Kinkaku-ji-Kyoto">
-                            <h3>RESORTS</h3>
-                            <a href="mailto:sophie.reddimalla@gmail.com">
-                                <h6>sophie.reddimalla@gmail.com</h6>
-                            </a>
-                        </div>
-                    </div>
+                <!-- Featured Work Section 3 -->
+                <section class="col-md-4 text-center">
+                    <img src="images\img_fw_03.jpg" alt="Akka-Falls">
+                    <h3>HILL STATIONS</h3>
+                    <a href="mailto:sophie.reddimalla@gmail.com">
+                        <h6>sophie.reddimalla@gmail.com</h6>
+                    </a>
                 </section>
             </article>
         </div>
-
-    </article>
-
+    </main>
 </body>
 
 </html>

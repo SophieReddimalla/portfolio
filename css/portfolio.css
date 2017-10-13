@@ -14,12 +14,12 @@ hr {
 /* The following defines the heading tags properties */
 h1 {
     font-family: "Gruppo";
-    font-size: 50px;
+    font-size: 38px;
     color: #2d3c49;
  }
  h2 {
     font-family: "Cantarell";
-    font-size: 40px;
+    font-size: 34px;
     color: #7d97ad;
 }
   h3 {
@@ -29,7 +29,7 @@ h1 {
 }
 h4 {
     font-family: "Allerta";
-    font-size: 30px;
+    font-size: 28px;
     color: #2d3c49;
  }
  p {
