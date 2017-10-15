@@ -2,36 +2,50 @@
 #features {
     margin-left: 30px; 
 }
+
+
 /* This defines the width and height of the images */
 img {
     width: 100%;
     height: auto;  
-} 
+}
+
+
 /* Horizontal line styling */
 hr {
     border-top: 4px solid #7d97ad; 
 }
+
+
 /* The following defines the heading tags properties */
-h1 {
+ h1 {
     font-family: "Gruppo";
     font-size: 38px;
     color: #2d3c49;
- }
+}
+
+
  h2 {
     font-family: "Cantarell";
     font-size: 34px;
     color: #7d97ad;
-}
-  h3 {
+ }
+
+
+ h3 {
     font-family: "Cantarell";
     font-size: 30px;
     color: #2d3c49;
 }
+
+
 h4 {
     font-family: "Allerta";
     font-size: 28px;
     color: #2d3c49;
- }
+}
+
+
  p {
     font-family: "Allerta";  
- }  
+}  
